@@ -1,0 +1,80 @@
+//---------------------------------------------
+//
+//  Variables
+//
+//    1. Bootstrap Fonts
+//    2. Bootstrap Globals
+//    3. Bootstrap Colors
+//    4. Bootstrap Container Width
+//
+//---------------------------------------------
+
+//---------------------------------------------
+// 1. Bootstrap Fonts
+//---------------------------------------------
+
+$font-family-base: "Nunito", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+
+//---------------------------------------------
+// 2. Bootstrap Globals
+//---------------------------------------------
+
+$enable-rounded: true;
+$enable-shadows: false;
+$enable-gradients: false;
+
+//---------------------------------------------
+// 3. Bootstrap Colors
+//---------------------------------------------
+
+$body-color: #000000; // The default text color
+
+$primary:    #7E56DA;
+$secondary:  #6c757d;
+$success:    #198754;
+$info:       #0dcaf0;
+$warning:    #ffc107;
+$danger:     #dc3545;
+$light:      #97989B;
+$dark:       #212529;
+
+//---------------------------------------------
+// 4. Bootstrap Container Width
+//---------------------------------------------
+
+$container-max-widths: (
+  sm: 540px,
+  md: 720px,
+  lg: 960px,
+  xl: 1140px,
+  xxl: 1320px
+);
+
+$enable-negative-margins: true;
+$spacer: 1rem;
+$spacers: (
+  0: 0,
+  1: $spacer * .25,
+  2: $spacer * .5,
+  3: $spacer,
+  4: $spacer * 1.25,
+);
+
+$card-border-radius: 0.5rem;
+$card-border-width: 0;
+
+
+// Button secondary style
+.btn-secondary{
+  --bs-btn-color: #080B11;
+  --bs-btn-bg: #FBFBFB;
+  --bs-btn-border-color: #E2E4E6;
+  --bs-btn-active-bg: #7E56DA;
+  --bs-btn-hover-bg: #7E56DA;
+  --bs-btn-active-border-color: #7E56DA;
+}
+
+
+.btn-m{
+  --bs-btn-border-radius: 0.5rem;
+}
