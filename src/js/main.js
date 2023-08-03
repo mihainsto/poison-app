@@ -38,7 +38,7 @@ const mouseUpHandler = function () {
   ele.style.removeProperty('user-select');
 };
 
-document.getElementById('drag-scroll-container').onmousedown=function (e) {
+ele.onmousedown=function (e) {
   pos = {
       // The current scroll
       left: ele.scrollLeft,
