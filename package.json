@@ -1,12 +1,15 @@
 {
   "name": "poison-app",
+  "homepage": "https://mihainsto.github.io/poison-app",
   "version": "1.0.1",
   "description": "A simple boilerplate using Bootstrap 5, Webpack and Babel.",
   "main": "index.js",
   "scripts": {
     "build": "webpack --config webpack.config.js --mode production",
     "dev": "webpack-dev-server --open --config webpack.config.js --mode development",
-    "images": "node ./bin/images.js"
+    "images": "node ./bin/images.js",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d public"
   },
   "type": "module",
   "license": "MIT",
@@ -21,6 +24,7 @@
     "css-loader": "^6.7.0",
     "dotenv-webpack": "^8.0.1",
     "fast-glob": "^3.2.12",
+    "gh-pages": "^5.0.0",
     "html-webpack-plugin": "^5.5.0",
     "mime-types": "^2.1.34",
     "mini-css-extract-plugin": "^2.7.2",
